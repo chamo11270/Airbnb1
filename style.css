@@ -1,0 +1,233 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  margin: 10px 20px;
+}
+
+.left-manu {
+  display: flex;
+}
+
+.fa-telegram-plane {
+  margin: 5px 20px 0 0;
+}
+
+.sform {
+  display: flex;
+}
+
+.sbox {
+  width: 400px;
+  height: 40px;
+  border: 2px solid #f5f5f5;
+  border-radius: 5px;
+  border-left: 0;
+}
+
+.sbutton {
+  background-color: #fff;
+  height: 40px;
+  border: 2px solid #f5f5f5;
+  border-right: 0:
+}
+
+.fa-search {
+  padding-right: 4px; 
+  padding-left: 4px; 
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.right-menu {
+  height: 45px;
+  margin-top: 12px;
+  margin-left: auto;
+}
+
+.right-menu li {
+  display: inline-block;
+} 
+
+.right-menu li a {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: darkgray;
+  padding-left: 15px; 
+}
+
+.first-colum {
+ width: 100%;
+ height: 450px;
+ background-image: url(./photo/旅行.jpg);
+ background-size: cover;
+}
+
+h1 {
+  font-size: 38px;
+  color: #fff;
+  padding: 150px 0 0 150px;
+}
+
+.first-colum p {
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 0 0 150px;
+}
+
+.main-button {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: dimgray;
+  background-color: #f5f5f5;
+  border: 0.8px solid rgb(116, 115, 115);
+  border-radius: 5px;
+  padding: 8px 14px;
+  margin: 20px 0 0 150px;
+}
+
+.second-titile h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: dimgray;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.second-colum {
+  display: flex;
+  justify-content: center;
+}
+
+.mail,.time,.world {
+  text-align: center;
+  width: 24%;
+  margin: 30px 20px 4px; 
+}
+
+.fa-3x:before{
+	color: rgb(1, 144, 163) ;
+}
+
+.second-colum h4 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+} 
+
+.second-colum p {
+  font-size: 14px;
+  color:#888;
+}
+
+.third-colum {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 350px;
+  background-color: rgb(1, 144, 163);
+  margin-top: 50px;
+}
+
+.third-colum img {
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.third-colum h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.third-colum p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.third-colum button {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(251, 80, 80);
+  border: 0.8px solid rgb(116, 115, 115);
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.third-colum a {
+  font-size: 0.6em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.last-colum-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.last-colum1,.last-colum2,.last-colum3,.last-colum4 {
+  width: 160px;
+  margin-right: 60px;
+}
+
+.last-colum-all h4 {
+  font-size: 0.8em;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.last-colum-all a {
+  font-size: 14px;
+  line-height: 2px;
+  color: #666;
+}
+
+footer {
+  width: 880px;
+  display: flex;
+  margin: 20px auto 30px auto;
+  padding-top: 15px;
+  border-top: 1px solid #f5f5f5;
+}
+
+.last-left i {
+  padding: 15px 5px;
+}
+
+.last-left2 {
+  font-size: 12px;
+}
+
+.last-right {
+ width: 20%;
+ margin-left: auto;
+}
+
+.last-right button {
+  margin: 15px;
+  background-color: #fff;
+  border: 1px solid #f7f7f7;
+  font-size: 1.0em;
+  color: darkgray;
+}
